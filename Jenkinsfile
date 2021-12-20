@@ -82,13 +82,7 @@ pipeline
 
       }
 	  }
-        //stage('Email') {
-      //steps {
-      //  emailext(subject: 'Reports', body: 'Attached the body', attachLog: true, attachmentsPattern: '*/summary.html', from: 'jojisham13@gmail.com', mimeType: 'text/html', to: 'jojisham13@gmail.com')
-     // }
-   // }
-
- // }
+       
   
   
   stage('Email') {
